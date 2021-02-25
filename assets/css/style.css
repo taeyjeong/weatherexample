@@ -1,0 +1,46 @@
+#currentCity {
+  margin:1% 0;
+  padding:1% 4%;
+}
+
+.heading {
+  display: flex;
+  margin: 0 0 3% 0
+}
+
+.heading span {
+  margin: 0 2% 2% 0;
+  font-size:xx-large;
+  font-weight:500;
+}
+
+#uvIndex {
+  display: flex;
+  flex-direction: row;
+}
+
+#uv {
+  margin: 0 1.5%;
+  width:45px;
+  height:30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  color: white;
+}
+
+#forecast5day {
+  height: 175px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#forecast5day .info {
+  padding: 0 0 0 1%;
+  margin: 0 0 0 4%;
+  font-size: small;
+}
+#forecast5day a {
+  font-size: small;
+  font-weight: bold;
+}
